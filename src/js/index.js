@@ -20,7 +20,7 @@ function virarCartao() {
             setTimeout(function () {
                 primeiroCartao.classList.remove("virado");
                 segundoCartao.classList.remove("virado");
-            }, 2000);
+            }, 250);
         }
     }
 }
