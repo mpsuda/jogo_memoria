@@ -9,6 +9,16 @@
 </head>
 
 <body>
+    <section class="placar">
+        <section class="resultado">
+        <h1>Placar</h1>
+        <div id="resultado">0</div>
+        </section>
+        <section class="resultado">
+            <h1>Tempo</h1>
+            <div id="resultado">0</div>
+            </section>
+    </section>
     
     <section class="jogo">
         <div class="cartao" data-info="js">
@@ -75,8 +85,22 @@
             <img src="./src/assets/img/wise_hands.png" class="frente-cartao" alt="Frente do cartão">
             <img src="./src/assets/img/s_serasa.png" class="verso-cartao" alt="Verso do cartão">
         </div>
-    
+    </section>
 
+    <section id="recordes">
+        <h1>Recordes</h1>
+        <table id="resultados">
+            <thead>
+                <td>
+                    NOME
+                </td>
+                <td>
+                    PONTUAÇÃO
+                </td>
+            </thead>
+            
+        </table>
+        <button id="reiniciar">Reiniciar Jogo</button>
     </section>
 
     <script src="./src/js/index.js" ></script>
