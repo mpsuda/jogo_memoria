@@ -9,7 +9,7 @@ body{
     display: flex;
     background-color: darkslateblue;
     display: flex;
-    align-items: center;
+    align-items: flex;
     justify-content: center;
     flex-direction: column;
 }
@@ -87,7 +87,7 @@ td{
     width: 200px;
 }
 
-#reiniciar{
+.reiniciar{
     width: 100%;
     border-radius: 15px;
     background-color: darkblue;
@@ -96,7 +96,7 @@ td{
     height: 30px;
 }
 
-#reiniar:hover{
+.reiniar:hover{
     color: aqua;
     background-color: orange;
 }
